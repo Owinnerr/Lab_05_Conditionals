@@ -4,8 +4,8 @@ public class ShipCostCalculator {
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the price of your item: "); // Prompting the user for price of item
-        double priceOfItem = in.nextDouble(); // Input user data as a double variable with scanner class
+        System.out.print("Enter the price of your item: "); // Prompting the user for price of item
+        double priceOfItem = in.nextDouble(); // Store user data as a double variable with scanner class
         double shippingCost; // Initialize shipping cost variable
         double totalPrice; // Initialize total price variable
         if (priceOfItem >= 100) { // Condition: If the price of the item is greater than or equal to 100,
